@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a593943f-60e5-4aec-bab3-52331071bc4b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../session00-seft-study/ExerciseArrayList/ColorV2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session00-seft-study/ExerciseArrayList/ColorV2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session00-seft-study/ExerciseArrayList/ColorV2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session00-seft-study/ExerciseArrayList/ColorV2/ColorV2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session00-seft-study/ExerciseArrayList/ColorV2/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session00-seft-study/ExerciseArrayList/ColorV3/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session00-seft-study/ExerciseArrayList/ColorV3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session00-seft-study/ExerciseArrayList/ColorV3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session00-seft-study/ExerciseArrayList/ColorV3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session00-seft-study/ExerciseArrayList/ColorV3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session00-seft-study/ExerciseArrayList/ColorV3/ColorV3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session00-seft-study/ExerciseArrayList/ColorV3/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session00-seft-study/ExerciseArrayList/Colors/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session00-seft-study/ExerciseArrayList/Colors/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session00-seft-study/ExerciseArrayList/Colors/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session00-seft-study/ExerciseArrayList/Colors/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session00-seft-study/ExerciseArrayList/Colors/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session00-seft-study/ExerciseArrayList/Colors/Colors.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session00-seft-study/ExerciseArrayList/Colors/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session03-class/DogManagement" beforeDir="false" afterPath="$PROJECT_DIR$/../../session03-class/DogManagement" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/.idea/session04-assignment.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/Ex2.Class.2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/Ex2.Class.2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/Ex2.Class.2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/Ex2.Class.2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/Ex2.Class.2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/Ex2.Class.2/Ex2.Class.2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/Ex2.Class.2/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/Ex2.Class.2/src/data/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/Ex2.Class.3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/Ex2.Class.3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/Ex2.Class.3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/Ex2.Class.3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/Ex2.Class.3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/Ex2.Class.3/Ex2.Class.3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/Ex2.Class.3/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/Ex2.Class.3/src/data/Laptop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/Ex2.Class/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/Ex2.Class/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/Ex2.Class/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/Ex2.Class/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/Ex2.Class/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/Ex2.Class/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/Ex2.Class/Ex2.Class.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/Ex2.Class/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/Ex2.Class/src/data/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/Review/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/Review/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/Review/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/Review/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/Review/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/Review/Review.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/Review/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/StudentManagementInformation/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/StudentManagementInformation/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/StudentManagementInformation/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/StudentManagementInformation/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/StudentManagementInformation/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/StudentManagementInformation/StudentManagementInformation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/StudentManagementInformation/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/StudentManagementInformation/src/data/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/StudentMangementRetake/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/StudentMangementRetake/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/StudentMangementRetake/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/StudentMangementRetake/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/StudentMangementRetake/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/StudentMangementRetake/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/StudentMangementRetake/StudentMangementRetake.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/StudentMangementRetake/src/data/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/StudentMangementRetake/src/data/Student/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/WorkShop1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/WorkShop1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/WorkShop1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/WorkShop1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/WorkShop1/WorkShop1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/WorkShop1/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Samurai/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Samurai/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Samurai/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Samurai/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Samurai/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Samurai/Samurai.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Samurai/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudentProfile/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudentProfile/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudentProfile/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudentProfile/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudentProfile/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudentProfile/StudentProfile.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudentProfile/src/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2o5oeXOw6ke7vnM4FGnPLb81Ii5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortKey" value="BY_TIME_DESCENDING" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Stage.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Documents/work/FPTU/SE/PRO192/source_dependency-injection/SE1501.DIDemo&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a593943f-60e5-4aec-bab3-52331071bc4b" name="Changes" comment="" />
+      <created>1730168892550</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730168892550</updated>
+    </task>
+    <servers />
+  </component>
+</project>

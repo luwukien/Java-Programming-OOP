@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fd874559-ab6b-4c81-8387-0fae229db586" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ColorV3/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Colors/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Colors/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Colors/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Colors/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Colors/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Colors/Colors.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Colors/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../session04-assignment/BeNa/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../session04-assignment/BeNa/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../session04-assignment/BeNa/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../session04-assignment/BeNa/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../session04-assignment/BeNa/BeNa.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../session05-essentials/MyToys/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../session05-essentials/MyToys/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../session05-essentials/MyToys/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../session05-essentials/MyToys/MyToys.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../session05-essentials/MyToys/src/fu/main/Stage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../session05-essentials/MyToys/src/fu/util/MyToys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../session05-essentials/Object/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../session05-essentials/Object/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../session05-essentials/Object/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../session05-essentials/Object/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../session05-essentials/Object/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../session05-essentials/Object/Object.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../session05-essentials/Object/src/data/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../session05-essentials/Object/src/main/Stage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../session03-class/DogManagement" beforeDir="false" afterPath="$PROJECT_DIR$/../../../session03-class/DogManagement" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2o9vCHO3BiOt932QPPsMeVgVP96" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortKey" value="BY_TIME_DESCENDING" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd874559-ab6b-4c81-8387-0fae229db586" name="Changes" comment="" />
+      <created>1730294476652</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730294476652</updated>
+    </task>
+    <servers />
+  </component>
+</project>

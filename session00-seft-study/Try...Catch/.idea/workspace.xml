@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="94441da6-17f5-4b3e-983a-0a82ad664cf5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../StudentManagementV3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StudentManagementV3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StudentManagementV3/StudentManagementV3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StudentManagementV3/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StudentManagementV3/src/data/StudentManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Try...Catch.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testCaseArray/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testCaseArray/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testCaseArray/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testCaseArray/testCaseArray.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testCaseArrayV2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testCaseArrayV2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testCaseArrayV2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testCaseArrayV2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testCaseArrayV2/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testCaseArrayV2/testCaseArrayV2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testCaseStringBuffer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testCaseStringBuffer/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testCaseStringBuffer/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testCaseStringBuffer/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testCaseStringBuffer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testCaseStringBuffer/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testCaseStringBuffer/testCaseStringBuffer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session03-class/StudentManagentV2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session03-class/StudentManagentV2/StudentManagentV2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session03-class/StudentManagentV2/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session03-class/StudentManagentV2/src/data/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session04-assignment/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session04-assignment/Review/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session04-assignment/Review/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session04-assignment/Review/Review.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session04-assignment/StudentManagementInformation/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session04-assignment/StudentManagementInformation/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session04-assignment/StudentManagementInformation/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session04-assignment/StudentManagementInformation/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session04-assignment/StudentManagementInformation/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session04-assignment/StudentManagementInformation/StudentManagementInformation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session04-assignment/StudentManagementInformation/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session04-assignment/StudentManagementInformation/src/data/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session04-assignment/StudentMangementRetake/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session04-assignment/StudentMangementRetake/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session04-assignment/StudentMangementRetake/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session04-assignment/StudentMangementRetake/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session04-assignment/StudentMangementRetake/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session04-assignment/StudentMangementRetake/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session04-assignment/StudentMangementRetake/StudentMangementRetake.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session04-assignment/StudentMangementRetake/src/data/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session04-assignment/StudentMangementRetake/src/data/Student/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session05-essentials/StudentProfile/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session03-class/DogManagement" beforeDir="false" afterPath="$PROJECT_DIR$/../../session03-class/DogManagement" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session03-class/DogManagementV2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../session03-class/DogManagementV2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session03-class/DogManagementV2/src/data/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../session03-class/DogManagementV2/src/data/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session03-class/DogManagementV2/src/dogmangement/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../session03-class/DogManagementV2/src/dogmangement/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session03-class/StudentManagement/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../session03-class/StudentManagement/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../session04-assignment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/Ex2.Class.2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../session04-assignment/Ex2.Class.2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/Ex2.Class.2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../session04-assignment/Ex2.Class.2/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session04-assignment/Ex2.Class.3/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../session04-assignment/Ex2.Class.3/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2nuqKOaogMrQbn9Sg4i1tQMUwG6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortKey" value="BY_TIME_DESCENDING" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94441da6-17f5-4b3e-983a-0a82ad664cf5" name="Changes" comment="" />
+      <created>1729833243609</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729833243609</updated>
+    </task>
+    <servers />
+  </component>
+</project>
