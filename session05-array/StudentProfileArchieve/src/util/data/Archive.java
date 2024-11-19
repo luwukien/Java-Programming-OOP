@@ -25,5 +25,5 @@ public class Archive {
     //Input characteristic student
     public String inputName
     name = sc.nextLine();
-    //heloo
+    //heloooooo
 }
