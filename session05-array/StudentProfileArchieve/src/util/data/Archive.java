@@ -1,5 +1,6 @@
 package util.data;
 import java.util.Scanner;
+import util.data.Student;
 //This is a place to archive student profiles includes sort, access
 
 /**
@@ -9,7 +10,7 @@ import java.util.Scanner;
 
 public class Archive {
 
-    private Student ds[] = new Student[300];
+    private Student studentList[] = new Student[300];
 
     //Count variable to use method access information
     private int countStudent = 0;
@@ -21,9 +22,29 @@ public class Archive {
     private double gpa;
 
     Scanner sc = new Scanner(System.in);
+    //Method input information student
+    public void inputInformation() {
+        System.out.println("Please input your ID student ");
+        id = sc.nextLine();
 
-    //Input characteristic student
-    public String inputName
-    name = sc.nextLine();
-    //heloooooo
+        System.out.println("Please input your name");
+        name = sc.nextLine();
+
+        System.out.println("Please input your birth");
+        birth = Integer.parseInt(sc.nextLine());
+
+        System.out.println("Please input your gpa");
+        gpa = Double.parseDouble(sc.nextLine());
+
+        studentList[countStudent++] = new Student(id, name, birth, gpa);
+
+    }
+    
+    public void printStudentList() {
+        System.out.println("The list student: ");
+        for (int i = 0; i < countStudent; i++) {
+            studentList[i].showProfile();
+        }
+    }
+
 }

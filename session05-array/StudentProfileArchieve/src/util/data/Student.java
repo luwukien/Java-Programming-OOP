@@ -1,4 +1,5 @@
 package util.data;
+import util.data.Archive;
 
 /**
  * @author Chi Kien-Luu | github/luwukien
@@ -56,9 +57,7 @@ public class Student {
 
     //show profile of a student
     public void showProfile() {
-        System.out.printf("|ID      |Name                     |Birth|GPA|");
-        System.out.printf("|%8s|%-25s|%-5d|%.3f|");
-
+        System.out.printf("|%8s|%-25s|%-5d|%4.1f|\n", id, name, birth, gpa);
     }
     //toString()
     @Override

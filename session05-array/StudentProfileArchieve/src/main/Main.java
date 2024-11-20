@@ -1,6 +1,6 @@
 package main;
-import util.data.Student;
 import util.data.Archive;
+import util.data.Student;
 
 /**
  * @author Chi Kien-Luu | github/luwukien
@@ -11,7 +11,13 @@ import util.data.Archive;
 
 public class Main {
     public static void main(String[] args) {
+        Archive student = new Archive();
+
+        student.inputInformation();
+        student.inputInformation();
 
 
+        student.printStudentList();
     }
+
 }
