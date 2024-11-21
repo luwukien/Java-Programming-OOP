@@ -46,5 +46,8 @@ public class Archive {
             studentList[i].showProfile();
         }
     }
+    public void sortStudent() {
+
+    }
 
 }
