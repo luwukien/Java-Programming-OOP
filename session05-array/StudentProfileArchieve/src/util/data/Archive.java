@@ -21,7 +21,7 @@ public class Archive {
     private int birth;
     private double gpa;
 
-    Scanner sc = new Scanner(System.in);
+    private final Scanner sc = new Scanner(System.in);
     //Method input information student
     public void inputInformation() {
         System.out.println("Please input your ID student ");
@@ -37,6 +37,7 @@ public class Archive {
         gpa = Double.parseDouble(sc.nextLine());
 
         studentList[countStudent++] = new Student(id, name, birth, gpa);
+        System.out.println("Add student information successfully");
 
     }
     
@@ -46,8 +47,20 @@ public class Archive {
             studentList[i].showProfile();
         }
     }
-    public void sortStudent() {
-
+    public void sortGPAStudent() {
+        Student temp;
+        for (int i = 0; i < studentList.length; i++) {
+            for (int j = 0; j < studentList.length - i - 1; j++) {
+                if (studentList[j].getGpa() > studentList[j + 1].getGpa()) {
+                    temp = studentList[j];
+                    studentList[j] = studentList[j + 1];
+                    studentList[j + 1] = temp;
+                }
+            }
+        }
+        printStudentList();
+        System.out.println("Sorted successfully");
     }
-
 }
+
+
