@@ -1,6 +1,5 @@
 package util.data;
 import java.util.Scanner;
-import util.data.Student;
 //This is a place to archive student profiles includes sort, access
 
 /**
@@ -10,7 +9,7 @@ import util.data.Student;
 
 public class Archive {
 
-    private Student studentList[] = new Student[300];
+    private final Student[] studentList = new Student[300];
 
     //Count variable to use method access information
     private int countStudent = 0;
@@ -49,8 +48,8 @@ public class Archive {
     }
     public void sortGPAStudent() {
         Student temp;
-        for (int i = 0; i < studentList.length; i++) {
-            for (int j = 0; j < studentList.length - i - 1; j++) {
+        for (int i = 0; i < countStudent; i++) {
+            for (int j = 0; j < countStudent - i - 1; j++) {
                 if (studentList[j].getGpa() > studentList[j + 1].getGpa()) {
                     temp = studentList[j];
                     studentList[j] = studentList[j + 1];
@@ -58,8 +57,24 @@ public class Archive {
                 }
             }
         }
-        printStudentList();
         System.out.println("Sorted successfully");
+        printStudentList();
+    }
+
+    public void searchByStudentID() {
+        String studentIDSearch;
+
+        System.out.println("Enter a student ID that you want to search: ");
+        studentIDSearch = sc.nextLine();
+        for (int indexStudent = 0; indexStudent < countStudent; indexStudent++) {
+            if (studentList[indexStudent].getId().equalsIgnoreCase(studentIDSearch)) {
+                System.out.println("Found the student that you search");
+                System.out.println("He/She is: ");
+                studentList[indexStudent].showProfile();
+                return;
+            }
+            System.out.println("Not found!!!");
+        }
     }
 }
 

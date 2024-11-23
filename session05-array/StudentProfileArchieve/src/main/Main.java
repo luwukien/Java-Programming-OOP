@@ -1,7 +1,5 @@
 package main;
 import util.data.Archive;
-import util.data.Student;
-
 import java.util.Scanner;
 
 /**
@@ -10,6 +8,9 @@ import java.util.Scanner;
  */
 
 //How do you write code assignment to archive many student profiles?
+//NOTE: I don't fix some error such as: format student ID, duplicate student ID, and one feature remove student
+//Anyway it is basic done     =))) hehe
+
 
 public class Main {
     public static void main(String[] args) {
@@ -37,13 +38,17 @@ public class Main {
                     student.printStudentList();
                     break;
                 case 3:
-                    //
-                case 4:
                     student.sortGPAStudent();
+                    break;
+                case 4:
+                    student.searchByStudentID();
+                    break;
                 case 5:
                     //
+                    break;
                 case 6:
                     System.out.println("See you again!");
+                    break;
             }
         } while (choice != 6);
         //updated
@@ -56,8 +61,8 @@ public class Main {
         System.out.println("Choose the following functions to play with");
         System.out.println("1> Add a student profile");
         System.out.println("2> Print student list");
-        System.out.println("3> Search a student by id");
-        System.out.println("4> Sort GPA student from low to high");
+        System.out.println("3> Sort GPA student from low to high");
+        System.out.println("4> Search a student by ID ");
         System.out.println("5> Remove a student");
         System.out.println("6> Quit");
     }
