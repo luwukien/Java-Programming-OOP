@@ -7,10 +7,10 @@ package data;
 
 public class Disk {
     private static  final  double PI = 3.1415;
-    private String owner;
-    private String color;
-    private String smile; //: ) : (
-    private double radius;
+    protected String owner;
+    protected String color;
+    protected String smile; //: ) : (
+    protected double radius;
 
     public Disk(String owner, String color, String smile, double radius) {
         this.owner = owner;
