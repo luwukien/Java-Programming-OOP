@@ -31,7 +31,7 @@ public class craftsMan {
 
         rectArr[1] = new Rectangle("MA", "Pink", 5.3, 4.0);
         rectArr[2] = new Rectangle("Be Na", "Rainbow", 1.9, 5.2);
-        rectArr[3] = new Square("GHỆ BÉ NA", "RAINBOW", 1.0);
+        rectArr[3] = new Rectangle("GHỆ BÉ NA", "RAINBOW", 1.0);
 
         //HV làm sao ở chung mảng chữ nhật được, và ngược lại, và còn tròn
         //chúng ta không cùng hệ, cùng loại, làm sao chung mảng

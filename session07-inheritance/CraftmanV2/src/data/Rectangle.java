@@ -1,18 +1,17 @@
 package data;
 
-import java.security.PublicKey;
 
 /**
  * @author Chi Kien-Luu | github/luwukien
- * Date: 11/23/2024
+ * Initialize Date: 23/11/2024
  */
 
 public class Rectangle {
-    private String owner;
-    private String color;
-    private double width;
-    private double length;
-    private double area; //thuộc tích/dđ dẫn xuất, derived field
+    protected String owner;
+    protected String color;
+    protected double width;
+    protected double length;
+    protected double area; //thuộc tích/dđ dẫn xuất, derived field
                         //được tính từ thằng khác, w * l
                         //do diện tích một đằng, 2 cạnh một nẻo
     //bất khả kháng chứ né con mẹ thằng này ra, ngoan cố new đúng, 5, 20, 100
@@ -81,6 +80,7 @@ public class Rectangle {
     }
 
     //90.0 x 90.9 = 8100.0
+
     public void paint() {
         System.out.printf("|RECTANGLE|%15s|%-10s|%4.1f|%4.1f|%7.2f|\n", owner, color, width, length, getArea());
     }

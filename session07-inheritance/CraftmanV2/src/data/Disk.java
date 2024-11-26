@@ -2,15 +2,15 @@ package data;
 
 /**
  * @author Chi Kien-Luu | github/luwukien
- * Date: 11/23/2024
+ * Initialize Date: 23/11/2024
  */
 
 public class Disk {
     private static  final  double PI = 3.1415;
-    protected String owner;
-    protected String color;
-    protected String smile; //: ) : (
-    protected double radius;
+    private String owner;
+    private String color;
+    private String smile; //: ) : (
+    private double radius;
 
     public Disk(String owner, String color, String smile, double radius) {
         this.owner = owner;

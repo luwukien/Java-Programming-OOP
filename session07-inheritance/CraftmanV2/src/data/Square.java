@@ -2,7 +2,7 @@ package data;
 
 /**
  * @author Chi Kien-Luu | github/luwukien
- * Date: 11/23/2024
+ * Initialize Date: 23/11/2024
  */
 
 // phát hiện 1 điều thú vị: HV IS A (KIND OF), A SPECIAL CASE, A VÉION
@@ -23,7 +23,7 @@ package data;
 //HV là HCN, cho nên HV sẽ có tất cả mọi thứ mà HCN có, không cần viết lại
 //HV là HCN, nó phỉa hành xử như HCN, hàm xài luôn
 //KẾ THỪA KHÔNG PHẢI LÀ COPY/PASTE NHƯ HỒI NÃY, ĐÀY LÀ CÁCH LƯỜI GÕ CODE
-//KẾ THỪA LÀ SXAIF LẠI 100% KHÔNG CẦN GÕ LÀ CODE - ĐÚNG NGOÀI ĐỜI LUÔN
+//KẾ THỪA LÀ xài LẠI 100% KHÔNG CẦN GÕ LÀ CODE - ĐÚNG NGOÀI ĐỜI LUÔN
 
 //khi chơi với kế thừa, phải tôn trọng phễu của con
 //Vuoong trước khi chời với Rectangle, V vẫn là V, phễu có 3 tham số
@@ -41,27 +41,19 @@ public class Square extends Rectangle {
         //dung hòa cha con, đọc hay lắm luôn
         //HV có cạnh edge chính là HCN có cạnh edge, edge
 
-    } //super chính là ~~~ new Rectangel(o, c, w, l);
+    } //super chính là ~~~ new Rectangle(o, c, w, l);
     //      đẩy/đổ vật liệu cho Cha giữ giùm, vì không cần làm lại
     //new Square() - > cắt HV, tọa HV
     //                  chính là cắt HCN
     //new Square() chính là new HCN(), cắt HV, chính là cắt HCN
+
+    //có hoặc không để @Override ở class con, thế nhưng nên để để cảnh báo
+    //Con qua mặt cha, phủ quyết, vờ như không thầy hàm cha
+    //đặc trưng cho 1 thứ gọi là tính đa dình đa xạ, đa ánh xạ đa nhân cacsh
+    //50 sắc thái, transformer, POLYMORPHISM
     @Override
-    public String toString() {
-        return "Square{" +
-                "owner='" + owner + '\'' +
-                ", color='" + color + '\'' +
-                ", edge=" + edge +
-                '}';
-    }
-    public double getArea() {
-//        return  edge * edge; //tao éo in, return để re-use hơi khác
-        return Math.pow(edge, 2); //edge^2
-    }
-
-
     public void paint() {
-        System.out.printf("|SQUARE   |%15s|%-10s|%4.1f|  - |%7.2f|\n", owner, color, edge, getArea());
+        System.out.printf("|SQUARE   |%15s|%-10s|%4.1f|  - |%7.2f|\n", owner, color, width, getArea());
     }
 
 }

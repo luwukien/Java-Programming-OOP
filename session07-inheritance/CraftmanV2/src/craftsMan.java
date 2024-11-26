@@ -4,19 +4,26 @@ import data.Square;
 
 /**
  * @author Chi Kien-Luu | github/luwukien 
- * Date: 11/23/2024
+ * Initialize Date: 23/11/2024
  */
 
 public class craftsMan {
     public static void main(String[] args) {
 //        cutShapes();
-        sortShapes();
+//        sortShapes();
+        playWithSquare();
     }
+
+    public static void playWithSquare() {
+        Square s1 = new Square("TÍA", "PINK", 5.0);
+        s1.paint();
+    }
+
 
     public static void sortShapes() {
         Rectangle r1 = new Rectangle("TIA", "PINK",1.0, 2.0);
 
-        Rectangle rectArr[] = new Rectangle[3];
+        Rectangle rectArr[] = new Rectangle[9];
         //9 biến React, reactArr[0] .... [8]
         //~~ lớp có 30 ghế ngồi, nhưng chưa có bạn nào
         //rectArr[i] ~ cần lắm luôn 1 tọa độ vùng new/clone Student(...);
