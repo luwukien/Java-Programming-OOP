@@ -17,6 +17,13 @@ public class craftsMan {
     public static void playWithSquare() {
         Square s1 = new Square("TÍA", "PINK", 5.0);
         s1.paint();
+
+        //vi diệu
+        Rectangle s2 = new Square("BE NA", "RAINBOW", 7.0);
+        //v LÀ hcn, hù THEO KẾ THỪA DÒNG HỌ
+        s2.paint(); //CON QUA MẶT CHA, XEM LÚC CHẠY COI!!!, CON QUA MẶT CHA, ĐA HÌNH XH
+        //HÀM PAINT() CỦA CAH, XEM LÚC CAHYJ COI!!!!!!!!!
+
     }
 
 

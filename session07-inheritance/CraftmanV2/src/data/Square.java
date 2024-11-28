@@ -49,7 +49,7 @@ public class Square extends Rectangle {
 
     //có hoặc không để @Override ở class con, thế nhưng nên để để cảnh báo
     //Con qua mặt cha, phủ quyết, vờ như không thầy hàm cha
-    //đặc trưng cho 1 thứ gọi là tính đa dình đa xạ, đa ánh xạ đa nhân cacsh
+    //đặc trưng cho 1 thứ gọi là tín    h đa dình đa xạ, đa ánh xạ đa nhân cacsh
     //50 sắc thái, transformer, POLYMORPHISM
     @Override
     public void paint() {
