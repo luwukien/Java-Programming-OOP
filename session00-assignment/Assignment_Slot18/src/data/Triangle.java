@@ -60,8 +60,9 @@ public class Triangle {
 
 
    public void printParameter() {
-       System.out.printf("|TRIANGLE     |%.3f|%.3f|%.3f|%.3f|\n", edgeTriangle1, edgeTriangle2, edgeTriangle3, getArea());
+       System.out.printf("|TRIANGLE      |%.3f|%.3f|%.3f|%.3f|\n", edgeTriangle1, edgeTriangle2, edgeTriangle3, getArea());
    }
+
 
 
 }

@@ -1,8 +1,6 @@
-import java.util.Scanner;
-
 import data.RightTriangle;
 import data.Triangle;
-import data.Utilization;
+
 /**
  * @author Chi Kien-Luu | github/luwukien
  * Initialize Date: 27/11/2024
@@ -15,25 +13,40 @@ import data.Utilization;
 
 public class Main {
     public static void main(String[] args) {
-        inputElements();
-
-    }
-
-    public static void inputElements() {
         System.out.println("Welcome to my new app.");
         //triangle
-        Triangle triangle1 =  new Triangle(5.6, 5.4, 4.5);
-        Triangle triangle2 = new Triangle(2.5, 6.7, 4.5);
-        Triangle triangle3 = new Triangle(3.5, 7.5, 4.5);
+        Triangle[] triangles = new Triangle[6];
+        triangles[0] = new Triangle(5.6, 3.4, 3.6);
+        triangles[1] = new Triangle(3.4, 5.2, 4.6);
+        triangles[2] = new Triangle(3.4, 5.2, 4.6);
+
 
         //right triangle
-        RightTriangle rightTriangle1 = new RightTriangle(4.5, 5.6);
-        RightTriangle rightTriangle2 = new RightTriangle(2.3, 4.5);
-        RightTriangle rightTriangle3 = new RightTriangle(2.3, 5.6);
-
+        triangles[3] = new RightTriangle(4.5, 4.5);
+        triangles[4] = new RightTriangle(2.3, 7.8);
+        triangles[5] = new RightTriangle(4.5, 6.5);
+        System.out.println("Before sort");
+        for (int i = 0; i < 6; i++) {
+            triangles[i].printParameter();
+        }
+        System.out.printf("\n");
+        System.out.println("After sort");
+        sortTriangleArea(triangles);
+        for (int i = 0; i < 6; i++) {
+            triangles[i].printParameter();
+        }
     }
-    public static void sortArea() {
 
+    public static void sortTriangleArea(Triangle[] triangles) {
+        for (int i = 0; i < triangles.length - 1; i++) {
+            for (int j = 0; j < triangles.length - i - 1; j++) {
+                if (triangles[j].getArea() > triangles[j + 1].getArea()) {
+                    Triangle temp = triangles[j];
+                    triangles[j] = triangles[j + 1];
+                    triangles[j + 1] = temp;
+                }
+            }
+        }
     }
 
 }
