@@ -1,0 +1,101 @@
+//Triangle có 3 cạnh a, b, c ( tổng 2 cạnh bk phải lớn hơn cạnh thứ 3)
+//Right Triangle bàn 2 cạnh góc vuông a, b
+//Viết app lưu 3 triangle, 3 right triangle, sort tăng dần theo S
+//HINT: tôn trọng con
+
+//Not import???
+
+import data.RightTriangle;
+import data.Triangle;
+
+public class Main() {
+	public static void main(String[] args) {
+		Triangle[] triangles = new Triangle[6];
+		//triangle
+		triangles[0] = new Triangle(4.5, 3.4, 7.1);
+		triangles[1] = new Triangle(7.6, 3.2, 8.7);
+		triangles[2] = new Triangle(7.6, 6.2, 10.7);
+		//right triangle
+		triangles[3] = new rightTriangle(2.6, 3.2);
+		triangles[4] = new rightTriangle(9.6, 4.5);
+		triangles[5] = new rightTriangle(5.6, 3.7);
+
+		System.out.println("Before sort");
+		
+		for (int i = 0; i < 6; i++)
+			triangles[i].printParameters();
+		
+		sortArea(triangles);
+
+		System.out.println("After sort");
+		
+		for (int i = 0; i < 6; i++)
+			triangles[i].printParameters();
+	}
+
+	//sort method
+	public static void sortArea(Triangle[] triangles) {
+		Triangle temp;
+		length = triangles.length;
+		for (int i = 0; i < length - 1; i++) {
+			for(int j = 0; j < length - i - 1; j++) 
+				if (triangles[j].getArea() > triangles[j + 1].getArea()) {
+					temp = triangle[j];
+					triangle[j] = triangle[j + 1];
+					triangle[j + 1] = temp;
+			}
+		} 
+	}
+}
+
+
+
+
+
+============ data
+======Triangle 
+import static java.lang.Math.sqrt;
+package data;
+public class Trigangle() {
+	protected double edge1;
+	protected double edge2;
+	protected double edge3;
+	
+	//contructor
+	public Triangle(double edge1, double edge2, double edge3) {
+		if (edge1 + edge2 > edge3 && edge2 + edge3 > edge1 && edge1 + edge3 > edge2) {
+			this.edge1 = edge1;
+			this.edge2 = edge2;
+			this.edge3 = edge3;
+		}
+		else 
+			throw new IllegalArgumentException("The invalid value");
+	}
+	
+	//method get area
+	public double getArea() {
+		average = (edge1 + edge2 + edge3) / 2;
+		return Math.sqrt(average * (average - edge1) * (average - edge2) * (average - edge 3));
+	}
+	
+	//method print 
+	public void printParameters() {
+		System.out.printf("Triangle      |%.3f|%.3f|%.3f|Area: %.3f|\n", edge1, edge2, edge3, getArea());
+
+	}
+		
+}
+
+=====RightTriangle
+package data;
+public class RightTriangle extends Triangle {
+	public RightTriangle(edge1, edge2) {
+		super(edge1, edge2, Math.sqrt((edge1 * edge1) + (edge2 * edge2)));
+	}
+	
+	public void printParameters() {
+		System.out.printf("Right Triangle|%.3f|%.3f|%.3f|Area: %.3f|\n", edge1, edge2, 
+		Math.sqrt((edge1 * edge1) + (edge2 * edge2)), getArea());
+
+	}
+}
