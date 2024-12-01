@@ -5,22 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f18e84ba-ce71-4d01-a7bb-cb957df62429" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/session03-class/DogManagement/src/dogmangement/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session03-class/StudentManagentV2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session03-class/StudentManagentV2/StudentManagentV2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session03-class/StudentManagentV2/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session03-class/StudentManagentV2/src/data/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session03-class/DogManagement" beforeDir="false" afterPath="$PROJECT_DIR$/session03-class/DogManagement" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session03-class/DogManagement/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session03-class/DogManagement/src/data/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/session03-class/DogManagement/src/data/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session03-class/DogManagementV2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/session03-class/DogManagementV2/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session03-class/DogManagementV2/src/data/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/session03-class/DogManagementV2/src/data/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session03-class/DogManagementV2/src/dogmangement/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/session03-class/DogManagementV2/src/dogmangement/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session03-class/StudentManagement/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/session03-class/StudentManagement/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session04-assignment/Ex2.Class.2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/session04-assignment/Ex2.Class.2/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session04-assignment/Ex2.Class.2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/session04-assignment/Ex2.Class.2/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session04-assignment/Ex2.Class.3/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/session04-assignment/Ex2.Class.3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lombok-1.18.30-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lombok-1.18.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session00-seft-study/Test_Lombok/Test_Lombok.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session07-inheritance/ParentChildV2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session07-inheritance/ParentChildV2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session07-inheritance/ParentChildV2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session07-inheritance/ParentChildV2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session07-inheritance/ParentChildV2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session07-inheritance/ParentChildV2/ParentChild.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session07-inheritance/ParentChildV2/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session07-inheritance/ParentChildV2/src/data/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session07-inheritance/ParentChildV2/src/data/Parent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session07-inheritance/ParentChild/ParentChild.iml" beforeDir="false" afterPath="$PROJECT_DIR$/session07-inheritance/ParentChild/ParentChild.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session07-inheritance/ParentChild/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/session07-inheritance/ParentChild/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session07-inheritance/ParentChild/src/data/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/session07-inheritance/ParentChild/src/data/Parent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +31,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;luwukien&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/luwukien/Java-Programming-OOP.git&quot;,
+    &quot;accountId&quot;: &quot;b282c4d3-5d4a-4bea-bb70-ec25a857996e&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -41,11 +54,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/2024.SE-FPTU/PRO192/session04-assignment",
+    "last_opened_file_path": "D:/2024.SE-FPTU/PRO192/session07-inheritance/ParentChildV2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,6 +72,26 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\2024.SE-FPTU\PRO192\session07-inheritance\ParentChildV2" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="DogManagementV2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="DogManagementV2" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

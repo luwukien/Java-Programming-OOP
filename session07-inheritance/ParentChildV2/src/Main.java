@@ -17,13 +17,13 @@ public class Main {
         //Khai con new con, chấm xổ ra tất cả của cha(Thừa kế) của riêng con
         //                  xổ ra con, C.thuc: gồm new cha + extend
 
-        Child c1 = new Child("Nhà Phố", "1000ETH");
+        Child c1 = new Child("Nhà Phố", "1000ETH", "DU THUYỀN");
         c1.showProfile();// sẽ in là parent, nếu không chịu override
-        c1.sayHi();
+//        c1.sayHi();
 
         //Khai con new cha
         //Child p = new Parent(...);
-        //Child p1 - new Parent("BIỆT THỰ', "1000BTC");
+        //Child p1 = new Parent( "BIỆT THỰ", "1000BTC", "1000VND");
         //Square s = new Rectangle();
 
         //KHAI CHA NEW CON, đọc theo kiểu is-a
@@ -34,11 +34,12 @@ public class Main {
         //Khai Cha new Con chỉ xổ của Cha, không care con có gì khác biệt
         //ngoại trử Overide
 
-        Parent c2 = new Child("Căn hộ", "DOGECOIN");
-        c2.showProfile();// Gọi cha nhưng chạy cho, duy nhất vậy
+        Parent c2 = new Child("Căn hộ", "DOGECOIN", "MOTOR");
+        c2.showProfile();
+        // Gọi cha nhưng chạy cho, duy nhất vậy
         //sayHi() mãi mãi không thấy, vì nằm ngoài tầm con trỏ Cha
         //Con vào SG đi chơi ở CyberCore đi đua xe; Ba không biết
-        c2.sayHi(); //rõ ràng có hàm này, vì new Child() chạm không tới, vì nó vẫn có
+//        c2.sayHi(); //rõ ràng có hàm này, vì new Child() chạm không tới, vì nó vẫn có
         //VẪN CÓ
 
 
