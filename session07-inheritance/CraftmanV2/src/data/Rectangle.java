@@ -1,10 +1,16 @@
 package data;
 
 
+import lombok.Getter;
+import lombok.Setter;
+
+
 /**
  * @author Chi Kien-Luu | github/luwukien
  * Initialize Date: 23/11/2024
  */
+@Getter
+@Setter
 
 public class Rectangle {
     protected String owner;
@@ -31,39 +37,39 @@ public class Rectangle {
 
     //getter
 
-    public String getOwner() {
-        return owner;
-    }
-
-    public String getColor() {
-        return color;
-    }
-
-    public double getWidth() {
-        return width;
-    }
-
-    public double getLength() {
-        return length;
-    }
+//    public String getOwner() {
+//        return owner;
+//    }
+//
+//    public String getColor() {
+//        return color;
+//    }
+//
+//    public double getWidth() {
+//        return width;
+//    }
+//
+//    public double getLength() {
+//        return length;
+//    }
 
     //setter
-
-    public void setOwner(String owner) {
-        this.owner = owner;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
-    }
-
-    public void setWidth(double width) {
-        this.width = width;
-    }
-
-    public void setLength(double length) {
-        this.length = length;
-    }
+//
+//    public void setOwner(String owner) {
+//        this.owner = owner;
+//    }
+//
+//    public void setColor(String color) {
+//        this.color = color;
+//    }
+//
+//    public void setWidth(double width) {
+//        this.width = width;
+//    }
+//
+//    public void setLength(double length) {
+//        this.length = length;
+//    }
 
     @Override
     public String toString() {
