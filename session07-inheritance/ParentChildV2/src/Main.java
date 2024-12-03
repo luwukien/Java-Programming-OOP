@@ -41,7 +41,27 @@ public class Main {
         //Con vào SG đi chơi ở CyberCore đi đua xe; Ba không biết
 //        c2.sayHi(); //rõ ràng có hàm này, vì new Child() chạm không tới, vì nó vẫn có
         //VẪN CÓ
+        //chơi trò kéo giãn sợi thun, để đo đáy new Child(), lấy tọa độ của
+        //new Child(), lẽ ra tọa độ có rồi, nhưng do ta xài con trỏ lưng chừng
+        //trỏ Cha không trỏ đáy, giờ dò đáy, kĩ thuật ép chó thành mèo, CAST
+        //ÉP KIỂU, CUA GẮT
+        //dùng con trỏ tạm, để lưu tọa độ
+        //Child tmp = new Child(); // nào đổ, tọa độ vùng new child. KHAI GÌ TRỎ VÙNG ẤY
+//        playWithParentChild();
+        Child tmp = (Child)c2;
+        //kẽo giãn con trỏ xuống đáy, (đáy new của Child()), lấy tọa độ thẩy cho tmp
+        //là con trỏ Child, 2 chàng 1 nàng again.
+        //1 chàng lưng chừng,1 chàng đáy new
+        tmp.sayHi();
+        tmp.showProfile();
 
+        //cách trên tốn 1 biến ocn trỏ, tà chỉ cần tọa độ, cất đi dùng lại
+        //hay dùng 1 lần rồi thôi, đều oke, new Dog(.......).bark();
+//        ((Child)c2).không có ra sayHi() dấu chấm cực mạnh về độ ưu tiên
+                    //hàm ý: sờ vùng ram của biến con trỏ
+                    //gắn với đúng data type của biến con trỏ
+                    //c2. Cha chấm, vào vùng nhớ Cha, vì biến kiểu Cha, chấm vào new
+        ((Child) c2).sayHi();
 
     }
 }

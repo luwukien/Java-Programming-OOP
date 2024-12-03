@@ -25,5 +25,8 @@ public class RightTriangle extends Triangle {
     public void paint() {
         System.out.printf("|R.TRIANGLE|%15s|%-10s|%4.1f|%4.1f| - |%7.2f|\n", owner, color, a, b, getArea());
     }
+    public void sayHi() {
+        System.out.println("Hello!");
+    }
 
 }

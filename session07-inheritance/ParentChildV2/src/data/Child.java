@@ -1,5 +1,8 @@
 package data;
 
+import lombok.Getter;
+import lombok.Setter;
+
 /**
  * @author Chi Kien-Luu | github/luwukien
  * Initialize Date: 30/11/2024
@@ -15,13 +18,14 @@ package data;
 //      có những cái mình làm biếng, xài lại cho rồi
 //      có những thứ không dùng lại được, muốn thì thỏa hiệp với cha
 //      3. Phễu, nhớ Con giữ bản sắc, nếu cần thì thỏa hiệp với cha
-
+//@Getter
+//@Setter
 public class Child extends Parent {
     //con học cách của Cha 2 tài sản, và con làm riêng được 1 món
     private String assestThree;
     //phễu phải đổ cho 3 món, 2 món cho Cha + 1 món riêng
 
-
+    //**Chú ý: Khai gì trỏ nấy
     public Child(String assetOne, String assetTwo, String assestThree) {
         super(assetOne, assetTwo);
         this.assestThree = assestThree;

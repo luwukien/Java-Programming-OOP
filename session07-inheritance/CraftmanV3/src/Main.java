@@ -14,7 +14,7 @@ public class Main {
         Triangle rt1 = new RightTriangle("Má", "PiINK", 4, 5);
         rt1.paint();
 
-        //Khai cha new COn, con kiểu IS-A, dùng 2 danh nghĩa, Con, phiên bản Cha
+        //Khai cha new Con, con kiểu IS-A, dùng 2 danh nghĩa, Con, phiên bản Cha
         Triangle rt2 = new RightTriangle("BÉ NA", "RAINBOW", 6.8, 7.6);
         rt2.paint(); //của cha
                 //LÚC CHẠY THÌ......HÀNH XỬ NHƯ CON, NẾU CÒN TÙNG TÊN HÀM CHA
@@ -24,6 +24,6 @@ public class Main {
         //LIÊN QUAN ĐẾN KẾ THỪA, CÓ 2 ĐIỀU
         //DI TRUYỀN: CHA CÓ GÌ CON XÀI NẤY, CHA THÊM, CON CÓ THÊM, CHA BỚT, CON CÓ BỊ BỚT
         //BIẾN DỊ: CON KHÁC CHA À NHEN, ĐIỀU GÌ XẢY RA - KÌ THUẬT DIFT, RÊ BÁNH
-
+        ((RightTriangle) rt2).sayHi();
     }
 }
