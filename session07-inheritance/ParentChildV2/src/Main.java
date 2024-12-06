@@ -46,14 +46,16 @@ public class Main {
         //trỏ Cha không trỏ đáy, giờ dò đáy, kĩ thuật ép chó thành mèo, CAST
         //ÉP KIỂU, CUA GẮT
         //dùng con trỏ tạm, để lưu tọa độ
-        //Child tmp = new Child(); // nào đổ, tọa độ vùng new child. KHAI GÌ TRỎ VÙNG ẤY
-//        playWithParentChild();
-        Child tmp = (Child)c2;
+//        Child tmp = new Child(); // nào đổ, tọa độ vùng new child. KHAI GÌ TRỎ VÙNG ẤY
+////        playWithParentChild();
+////
+//        tmp = (Child)c2;
         //kẽo giãn con trỏ xuống đáy, (đáy new của Child()), lấy tọa độ thẩy cho tmp
         //là con trỏ Child, 2 chàng 1 nàng again.
         //1 chàng lưng chừng,1 chàng đáy new
-        tmp.sayHi();
-        tmp.showProfile();
+//        tmp.sayHi();
+//        tmp.showProfile();
+
 
         //cách trên tốn 1 biến ocn trỏ, tà chỉ cần tọa độ, cất đi dùng lại
         //hay dùng 1 lần rồi thôi, đều oke, new Dog(.......).bark();

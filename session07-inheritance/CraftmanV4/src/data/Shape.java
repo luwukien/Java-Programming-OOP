@@ -11,15 +11,25 @@ import lombok.ToString;
 //hình học là ông tổ, class CHA mà từ đay có 1 đàn con V, TR, CN, HBH, TG....
 //đều thỏa cái cầu IS A MỘT CHIỀU
 //Tư Duy Phiên Bản, 1 bản gốc có N phiên bản
-@Getter
-@Setter
-@ToString
-public abstract class Shape {
+//@Getter
+//@Setter
+//@ToString
+//KHI MỘT CLASS CHỨA HÀM ABSTRACT, KHÔNG CODE, CHỈ NÓI MÀ KHÔNG LÀM, BẢN THÂN CLASS
+//CŨNG PHẢI LÀ ABSTRACT,mang ý nghĩa khái niệm, chưa hoàn thiện
+//Không này chỉ là bản phác thảo, concept, chưa chạy được
+public abstract class  Shape {
     //đặc điểm, hành vi và phễu như truyền thống
     protected String owner;
     protected String color;
     protected String borderColor; //màu đường bo cạnh
-    //protected double a, b, c, d, e, f, radius;
+
+    public Shape(String owner, String color, String borderColor) {
+        this.owner = owner;
+        this.color = color;
+        this.borderColor = borderColor;
+    }
+
+//protected double a, b, c, d, e, f, radius;
     //để ở đau các kích thước: cha, con, cả 2
     //KO ĐƯỢC ĐỂ Ở CHA
     //VÌ đám con sẽ thừa kế hết, Cha có gì con có nấy
@@ -36,11 +46,43 @@ public abstract class Shape {
     //                                  VÀO SG ĐỨA CHĂM CHỈ THÊM TIỀN
     //                                              ĐỪA LƯỜI BIẾNG
 
+    public String getOwner() {
+        return owner;
+    }
 
-    //PHỄU và S, P
+    public void setOwner(String owner) {
+        this.owner = owner;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public String getBorderColor() {
+        return borderColor;
+    }
+
+    public void setBorderColor(String borderColor) {
+        this.borderColor = borderColor;
+    }
+
+    @Override
+    public String toString() {
+        return "Shape{" +
+                "owner='" + owner + '\'' +
+                ", color='" + color + '\'' +
+                ", borderColor='" + borderColor + '\'' +
+                '}';
+    }
+
+//PHỄU và S, P
     //diện tích và chu vi??
     //Mày không nên là 1 đặc điểm, không nên là derived field/ biến được tính từ thằng
-    //NÓ NÊN ĐƯỢC TÍNH TOÁN TỪ CÁC KÍCH THƯỚC, DO ĐÓ HỢP LÍ NHẤT NÓ PHẢI LÀ HMAF
+    //NÓ NÊN ĐƯỢC TÍNH TOÁN TỪ CÁC KÍCH THƯỚC, DO ĐÓ HỢP LÍ NHẤT NÓ PHẢI LÀ HÀM
     //hàm tính S, P đặt ở đâu: cha, con hay là cả 2
     //OOP: Đặc tính và hành vi --> mô tả 1 object
     //      tính hợp lí của hành động, hành động thuộc về object mà nó nhiều info nhất
@@ -70,13 +112,14 @@ public abstract class Shape {
 //
 //    }
 
+
     //S VÀ P CHỈ LÀ Ý TƯỞNG, KHÁI NIỆM THÔI MÀ, ĐỊNH NGHĨA RA 1 THỨ MÀ
     //OBJ CẦN PHẢI CÓ, NHƯNG CHƯA NÓI CỤ THỂ
     //TỒN TẠI MÀ LẠI VÔ HÌNH, DT,CV LÀ 1 KHÁI NIỆM ĐỂ NÓ VỀ ĐỌ RỘNG, ĐỒ DÀI
     //TỒN TỊA ĐỂ NÓI VỀ KHÁI NIỆM, HỮ MÀ LẠI VÔ, GỌI LÀ TRỪU TƯỢNG, ABSTRACT
     //CHỈ NÓI VẬY THÔI HENG, TỪ TỪ TÍNH, Ý TƯỞNG THÔI, Ý NIỆM NIỆM THOY
     //ĐĨNH NGHĨA THÔI, MÔ TẢ THOY, TỪ TỪ TÍNH
-    //KHIẾN HCO OBJECT VẪN RÕ RÀNG Ý NGHÃI MÔ RẢ, NHƯNG NÓ LẠI ĐỦ CHUNG CHUNG
+    //KHIẾN CHO OBJECT VẪN RÕ RÀNG Ý NGHĨA MÔ TẢ, NHƯNG NÓ LẠI ĐỦ CHUNG CHUNG
     //NHƯNG CHƯA CẦM NẮM RÕ ĐƯỢC
     //MANG T/X MÔ TẢ LÀ CHỦ YẾ
     //MẸ KIẾP, HÌNH HỌC BẢN THÂN ĐÃ LÀ CHUNG CHUNG, VỀ TAO CÁI HÌNH, HỎI LẠI
@@ -86,7 +129,7 @@ public abstract class Shape {
     //chỉ nêu ra mà không nói chi tiết
     //ABSTRACT, HÀM CHỈ MANG TÍNH CHẤT BIỂU TRƯNG Đ/N ĐỂ TRỌN VẸN VIỆC
     //MÔ TẢ CÁI GÌ ĐÓ, HÀM ABSTRACT, HÀM KHÔNG CÓ CODE
-    //KHUÔN TƯƠNG ỨNG/CHỨA HÀ ABTRACT NÓ ĐỊA DIỆN CHO 1 Đ/N Ý TƯỞNG
+    //KHUÔN TƯƠNG ỨNG/CHỨA HÀM ABTRACT NÓ ĐẠI DIỆN CHO 1 Đ/N Ý TƯỞNG
     //KHUÔN.ABSTRACT
     //NÓ CHÍNH LÀ HÌNH THƯỚC GOM NHÓM, GOM CLASS, PHÂN LOẠI MỨC CAO
     //GẶP RẤT NHIỀU TRONG CUỘC SỐNG DẠNG GOM KIỂU NAY
@@ -96,4 +139,16 @@ public abstract class Shape {
     //CÀNG GOM CÀNG HCUNG CHUNG Ý TƯỞNG
     public abstract double getArea(); //éo cầm viết code, ý tưởng thôi mà
     public abstract double getPerimeter();
+    public abstract void paint(); //dị biệt cho mỗi hình
+
+
+    //tui sẽ bổ sung paint() như là 1 hmaf abstract luôn vì việc vẽ mỗi hình
+    //là khá khác nhaum việc in thì cũng khác nhau luôn: RECT, SQR, TRG,....
+    //diện tích tính khác nhau chưa có luôn
+    //tui chỉ nói ra là cần vẽ thôi, ai vẽ thế nào thì vẽ
+
+    //TẠI SAO KHÔNG XÀI IF Ở ĐÂY, IF (hình tròn) in DSK, if ( hình vuông) in SQR
+    //Không dùng vì khiến cho class Shape sẽ bị ảnh hưởng thiếu tính linh hoạt dễ mở rộng
+    //SOLID trong OOP
+
 }
